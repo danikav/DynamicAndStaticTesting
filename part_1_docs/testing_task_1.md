@@ -25,10 +25,10 @@ class CardGame:
     else
       return False
    
-# no comma between card1 and card2
+# no comma between card1 and card2. Also should be def, not dif.
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
-    # changed variable name. It is typed as card, but should be card1
+# change variable name. It is typed as card, but should be card1
     return card
   else:
     return card2
@@ -36,11 +36,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  # total needs to be set as an integer variable, e.g. total = 0
+# total needs to be set as an integer variable, e.g. total = 0
   total
   for card in cards:
     total += card.value
-    # the return statement should be unindented so it runs after the loop has completed.
+# the return statement should be unindented so it runs after the loop has completed.
     return "You have a total of" + total
   
 ```
